@@ -1,0 +1,13 @@
+[package]
+name = "amtms_geo"
+version = "0.1.0"
+edition = "2021"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.10.1"
+amtms_graphics = {path = "../amtms_graphics"}
+amtms_python = {path = "../amtms_python" }
+amtms_physics = {path = "../amtms_physics"}
+amtms_tool = {path = "../amtms_tool"}
+once_cell = "*"

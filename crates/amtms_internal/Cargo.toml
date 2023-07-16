@@ -1,0 +1,14 @@
+[package]
+name = "amtms_internal"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+amtms_physics = { path = "../amtms_physics"}
+amtms_graphics = { path = "../amtms_graphics"}
+amtms_python = {path = "../amtms_python" }
+amtms_geo = {path = "../amtms_geo"}
+amtms_webapi = {path = "../amtms_webapi"}
+amtms_tool = {path = "../amtms_tool"}

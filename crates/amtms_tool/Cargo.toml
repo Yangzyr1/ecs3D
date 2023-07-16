@@ -1,0 +1,14 @@
+[package]
+name = "amtms_tool"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+amtms_graphics = {path="../amtms_graphics"}
+bevy = "0.10.1"
+nalgebra = "*" # replace * by the latest version of the crate.
+once_cell = "1.17.1"
+delaunator = "1.0.2"
+earcutr = "0.4.2"
